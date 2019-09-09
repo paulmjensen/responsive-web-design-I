@@ -211,29 +211,13 @@ h1, h2, h3, h4, h5 {
 	}
 	header .logo{
 		width:20%;
-		
 	}
 	
 	header nav {
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-start;
 	  }
 	  
-	  header nav a {
-		 
-		
-	  }
-	  header nav a:hover {
-		
-	  }
-	  
-	  header nav a:first-child {
-	
-	  }
-	  
-	  header nav a:last-child {
-	
-	  }
 	  .cta{
 		  display:flex;
 		  flex-direction: column;
@@ -243,8 +227,21 @@ h1, h2, h3, h4, h5 {
 		  visibility: hidden;
 	  }
 	  .main-content{
-		  
-		  display:flex;
-		  flex-flow: row wrap;
+		  display: flex;
+		  flex-wrap: wrap;
 	  }
+	  .main-content .top-content{
+		width: 800px;
+		display: flex;
+		 
+	  }
+	  
+	  .main-content .middle-img{
+		width: 800px;
+	  }
+	  .main-content .bottom-content{
+		width: 800px;
+		display: flex;
+	  }
+
 }
