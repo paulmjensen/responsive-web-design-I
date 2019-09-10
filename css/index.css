@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5 {
 
 
 /*--------------begin my work-----------*/
-@media screen and (max-width: 800px){
+@media (max-width: 800px){
 
 	header {
 		display:flex;
@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5 {
 }
 /* ------------Mobile View-----------*/
 
-@media screen and (max-width: 500px){
+@media (max-width: 500px){
 	.container{
 		width: 500px;
 	}
@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5 {
 		align-content: space-between;
 		
 	}
-	}
+	
 	.main-content .middle-img{
 		width: 500px;
 	}
@@ -308,4 +308,5 @@ h1, h2, h3, h4, h5 {
 		display: flex;
 		justify-content: center;
 	}
+}
 }
