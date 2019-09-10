@@ -260,14 +260,21 @@ h1, h2, h3, h4, h5 {
 		display:flex;
 		flex-direction: column-reverse;
 		flex-wrap: wrap;
+		/*???????border-top: 1 px solid black;*/
+		
 		
 	   }
 	header nav {
-		
+		width: 500px;
+		display:flex;
+		flex-direction: column;
+		padding-left: 200px;
 		
 		
 	   }
 	 header nav a {
+		width: 500px;
+		padding: 20px;
 		
 	   }
 	/*-------End Header---------*/
