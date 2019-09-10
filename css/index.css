@@ -243,19 +243,62 @@ h1, h2, h3, h4, h5 {
 		width: 800px;
 		display: flex;
 	  }
+	  footer{
+		display: flex;
+		justify-content: center;
+	}
 
 }
 /* ------------Mobile View-----------*/
 
 @media screen and (max-width: 500px){
+	.container{
+		width: 500px;
+	}
 	header {
+		width: 500px;
+		display:flex;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
 		
 	   }
-	   header nav {
-	   }
-	   header nav a {
+	header nav {
 		
+		
+		
+	   }
+	 header nav a {
+		
+	   }
 	/*-------End Header---------*/
-
-
+	.main-content{
+		width: 500px;
+		display:flex;
+	}
+	.main-content .top-content{
+		width: 500px;
+		display:flex;
+		flex-direction: column;
+		align-content: space-between;
+		
+	}
+	}
+	.main-content .middle-img{
+		width: 500px;
+	}
+	.main-content .bottom-content{
+		width: 500px;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		align-content: flex-start;
+		align-content: stretch;
+	}
+	.main-content .top-content .text-content{
+		margin: 3% 0%;
+		padding: 3% 0%;
+	footer{
+		display: flex;
+		justify-content: center;
+	}
 }
