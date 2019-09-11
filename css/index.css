@@ -260,21 +260,23 @@ h1, h2, h3, h4, h5 {
 		display:flex;
 		flex-direction: column-reverse;
 		flex-wrap: wrap;
-		/*???????border-top: 1 px solid black;*/
+		
 		
 		
 	   }
 	header nav {
-		width: 500px;
+		width: 100%;
 		display:flex;
 		flex-direction: column;
-		padding-left: 200px;
+		
 		
 		
 	   }
 	 header nav a {
-		width: 500px;
-		padding: 20px;
+		width: 100%;
+		padding: 5px;
+		text-align: center;
+		border: 1px solid grey;
 		
 	   }
 	/*-------End Header---------*/
@@ -294,19 +296,24 @@ h1, h2, h3, h4, h5 {
 		width: 500px;
 	}
 	.main-content .bottom-content{
-		width: 500px;
+		width: 100%;
 		display: flex;
-		flex-wrap: nowrap;
 		flex-direction: column;
-		align-content: flex-start;
-		align-content: stretch;
+		align-items: center;
+		margin-top: 10%;
+		margin-bottom: 10%;
+
 	}
 	.main-content .top-content .text-content{
-		margin: 3% 0%;
+		margin: 10%;
 		padding: 3% 0%;
+	}
+	.main-content .bottom-content .text-content{
+		margin: 10%;
+		padding: 3% 0%;
+	}
 	footer{
 		display: flex;
 		justify-content: center;
 	}
-}
 }
